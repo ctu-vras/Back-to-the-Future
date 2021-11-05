@@ -30,7 +30,6 @@ sh build_and_install.sh
 ```
 
 
-## STUDENT Model
 
 ### Dataset preparation
 Arrange training logs of argoverse dataset, inside in a single folder. Copy the address of that directory to in yaml file.
