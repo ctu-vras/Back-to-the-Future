@@ -115,7 +115,7 @@ CUDA_VISIBLE_DEVICES=0 python ../train_rcnn.py --cfg_file ../cfgs/teacher/argo_t
 After training, the checkpoints and training logs will be saved to the corresponding directory according to the name of your configuration file. Such as for the `argo_train_mf1500_w3_p16384_agum_f1_1.yaml`, you could find the checkpoints and logs in the following directory:
 
 ```
-ST_PointRCNN_argo2/tools/output/teacher/rpn/argo_train_mf1500_w3_p16384_agum_f1_1/
+tools/output/teacher/rpn/argo_train_mf1500_w3_p16384_agum_f1_1/
 ```
 which will be used for the training of RCNN stage. 
 
@@ -166,7 +166,7 @@ CUDA_VISIBLE_DEVICES=0,1,.. python ../train_rcnn.py --cfg_file ../cfgs/argo_trai
 After training, the checkpoints and training logs will be saved to the corresponding directory according to the name of your configuration file. Such as for the `argo_train_mf1500_w3_p16384_agum_f1_0_T1_1.yaml`, you could find the checkpoints and logs in the following directory:
 
 ```
-ST_PointRCNN/tools/output/stundet/rpn/argo_train_mf1500_w3_p16384_agum_f1_0_T1_1/
+tools/output/student/rpn/argo_train_mf1500_w3_p16384_agum_f1_0_T1_1/
 ```
 which will be used for the training of RCNN stage. 
 
