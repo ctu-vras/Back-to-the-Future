@@ -68,7 +68,7 @@ CFG.future_frame = 5 # NB: CFG.future_frame should be 0 for student model, since
 ## Teacher model
 
 ### Pretrained model
-Are available at [Google Doc](https://drive.google.com/drive/folders/1U7DGaADsXt7A3ggvZ4i4xIoi4mKWjTp8?usp=sharing).
+Are available at [Google Drive](https://drive.google.com/drive/folders/1U7DGaADsXt7A3ggvZ4i4xIoi4mKWjTp8?usp=sharing).
 
 #### Quick demo
 You could run the following command to evaluate the pretrained model:  First navigate in to "tools/script"
