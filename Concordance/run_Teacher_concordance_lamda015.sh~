@@ -1,0 +1,7 @@
+
+python eval_histogram_tp_fp.py --prediction_path /mnt/data/vras/data/gebreawe/Modified_Experiments/f-5_5/PointRCNN-Argoverse/tools/test/argo_config_test_mf_after_1500_w3_p16384_agumentaion/10b3a1d8-e56c-38be-aaf7-ef2f862a5c4e/per_sweep_annotations_amodal --label_path /mnt/data/vras/data/gebreawe/Modified_Experiments/f-4_4/PointRCNN-Argoverse/tools/test/argo_config_test_mf_after_1500_w3_p16384_agumentaion/10b3a1d8-e56c-38be-aaf7-ef2f862a5c4e/per_sweep_annotations_amodal  --iou 0.01 --lamda 0.1 --pcmin 0 --pcmax 100 --output Filterd_sample_T4_4_T5_5_lamda_015/per_sweep_annotations_amodal
+
+python eval_histogram_tp_fp.py --prediction_path /mnt/data/vras/data/gebreawe/Modified_Experiments/f-5_5/PointRCNN-Argoverse/eval/Filterd_sample_T4_4_T5_5_lamda_015/per_sweep_annotations_amodal --label_path /mnt/data/vras/data/gebreawe/Modified_Experiments/f-3_3/PointRCNN-Argoverse/tools/test/argo_config_test_mf_after_1500_w3_p16384_agumentaion/10b3a1d8-e56c-38be-aaf7-ef2f862a5c4e/per_sweep_annotations_amodal  --iou 0.01 --lamda 0.11 --pcmin 0 --pcmax 100 --output Filterd_sample_T3_3_T4_4_T5_5_lamda_015/per_sweep_annotations_amodal
+
+
+
