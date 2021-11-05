@@ -71,18 +71,28 @@ CFG.future_frame = 5 # NB: CFG.future_frame should be 0 for student model, since
 Are available at [Google Doc](https://drive.google.com/drive/folders/1U7DGaADsXt7A3ggvZ4i4xIoi4mKWjTp8?usp=sharing).
 
 #### Quick demo
-You could run the following command to evaluate the pretrained model:  First navigate in to Teacher/tools/script
-
-then run
+You could run the following command to evaluate the pretrained model:  First navigate in to "tools/script"
+##### To evaluate 3D detection
+* run
 
 ```
 bash run_teacher_test_det_mf1500_w3_p16384_augm_f1_1.sh
 ```
-
 or
 
 ```
 python ../eval_rcnn.py --cfg_file ../cfgs/test/test_argo_train_mf1500_w3_p16384_agum_f1_1.yaml --ckpt ../output/teacher/rcnn/argo_train_mf1500_w3_p16384_agum_f1_1/ckpt/best.pth --batch_size 1 --eval_mode rcnn --output_dir ../test/DET/teacher/argo_train_mf1500_w3_p16384_agum_f1_1
+```
+
+##### To evaluate Semantic Segmentation
+* run
+```
+bash run_teacher_test_ss_mf1500_w3_p16384_augm_f1_1.sh
+```
+or
+
+```
+python ../eval_rcnn.py --cfg_file ../cfgs/test/test_argo_train_mf1500_w3_p16384_agum_f1_1.yaml --ckpt ../output/teacher/rpn/argo_train_mf1500_w3_p16384_agum_f1_1/ckpt/best.pth --batch_size 1 --eval_mode rpn --output_dir ../test/SS/teacher/argo_train_mf1500_w3_p16384_agum_f1_1
 ```
 
 
